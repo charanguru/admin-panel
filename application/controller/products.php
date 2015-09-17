@@ -3,18 +3,18 @@
 /**
  * Created by PhpStorm.
  * User: Charan
- * Date: 9/15/2015
- * Time: 12:45 AM
+ * Date: 9/17/2015
+ * Time: 4:58 PM
  */
-class Test extends Controller
+class Products extends Controller
 {
     public function index()
     {
-        $testRecords = $this->model->getAllTest();
+        $products = $this->model->getAllProducts();
 
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/test/index.php';
+        require APP . 'view/products/index.php';
         require APP . 'view/_templates/footer.php';
     }
 }

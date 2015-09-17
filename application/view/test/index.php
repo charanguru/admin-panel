@@ -5,8 +5,6 @@
  * Date: 9/15/2015
  * Time: 12:46 AM
  */?>
-<?php echo count($testRecords) ?>
-<?php print_r ($testRecords) ?>
 <table>
     <tr>
         <td>Name</td>
