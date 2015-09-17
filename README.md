@@ -1,4 +1,4 @@
-[!Savvy admin](http://www.php-mini.com)
+[Savvy admin panel](http://www.getsavvy.info)
 
 # Savvy admin
 
